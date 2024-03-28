@@ -4,7 +4,7 @@ from datetime import datetime
 API_KEY = os.environ.get('API_KEY')
 API_ID = os.environ['API_ID']
 NUTRI_ENDPOINT = "https://trackapi.nutritionix.com/v2/natural/exercise"
-sheety_post_endpoint = "https://api.sheety.co/1f3d76c7bff772b31243b79f12780634/workoutTracking/workouts"
+sheety_post_endpoint = YOUR_SHEETY_ENDPOINT
 sheety_token = os.environ.get('SHEETY_TOKEN')
 GENDER = "male"
 WEIGHT_KG = 50
